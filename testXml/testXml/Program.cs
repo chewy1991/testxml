@@ -12,7 +12,6 @@ namespace testXml
     class Program
     {
         public static XmlSerializer xmlserialize;
-        public static FileStream stream;
         static void Main(string[] args)
         {
             Facility facility = FillFacility();
@@ -23,9 +22,12 @@ namespace testXml
 
          static void SerializeObject(Facility fac)
          {
-             stream = new FileStream($@"C:\Users\Adrian Kaufmann\Desktop\testxml\testxml.xml",FileMode.Create);
-             xmlserialize.Serialize(stream,fac);
-             stream.Close();
+             using (FileStream stream = new FileStream($@"C:\Users\Adrian Kaufmann\Desktop\testxml\testxml.xml",
+                 FileMode.Create))
+             {
+                 xmlserialize.Serialize(stream, fac);
+            }
+            
          }
 
         public static Facility FillFacility()

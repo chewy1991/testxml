@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace testXml.Model
 {
+    [Serializable]
     public class MeasureState
     {
         public DateTime AccumulDate { get; set; }
