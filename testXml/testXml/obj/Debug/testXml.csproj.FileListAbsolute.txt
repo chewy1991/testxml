@@ -4,3 +4,9 @@ C:\Users\Adrian Kaufmann\source\repos\testXml\testXml\bin\Debug\testXml.exe
 C:\Users\Adrian Kaufmann\source\repos\testXml\testXml\bin\Debug\testXml.pdb
 C:\Users\Adrian Kaufmann\source\repos\testXml\testXml\obj\Debug\testXml.exe
 C:\Users\Adrian Kaufmann\source\repos\testXml\testXml\obj\Debug\testXml.pdb
+C:\Users\Adrian Kaufmann\Source\Repos\testxml2\testXml\testXml\bin\Debug\testXml.exe.config
+C:\Users\Adrian Kaufmann\Source\Repos\testxml2\testXml\testXml\bin\Debug\testXml.exe
+C:\Users\Adrian Kaufmann\Source\Repos\testxml2\testXml\testXml\bin\Debug\testXml.pdb
+C:\Users\Adrian Kaufmann\Source\Repos\testxml2\testXml\testXml\obj\Debug\testXml.csprojAssemblyReference.cache
+C:\Users\Adrian Kaufmann\Source\Repos\testxml2\testXml\testXml\obj\Debug\testXml.exe
+C:\Users\Adrian Kaufmann\Source\Repos\testxml2\testXml\testXml\obj\Debug\testXml.pdb

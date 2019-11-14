@@ -37,6 +37,9 @@ namespace testXml
             var measurestate = new MeasureState();
             var measurepoint2 = new MeasurePoint();
             var measurestate2 = new MeasureState();
+            var measurepoint3 = new MeasurePoint();
+            var measurestate3 = new MeasureState();
+            var device3 = new Device();
             fac.FacilityId = "12345678";
             measurestate.AccumulDate = DateTime.Now;
             measurestate.Value = (decimal)10.5;
@@ -56,6 +59,15 @@ namespace testXml
             device2.MeasurePoints.Add(measurepoint2);
             device2.SRC_Id = "00001215";
             fac.Devices.Add(device2);
+            measurestate3.AccumulDate = DateTime.Today;
+            measurestate3.Value = (decimal)1254.54;
+            measurepoint3.measureState = measurestate3;
+            measurepoint3.Medium = "Elektrizität";
+            measurepoint3.Tarif = 2;
+            measurepoint3.Unit = "kWh";
+            device3.MeasurePoints.Add(measurepoint3);
+            device3.SRC_Id = "00005715";
+            fac.Devices.Add(device3);
 
             return fac;
         }
